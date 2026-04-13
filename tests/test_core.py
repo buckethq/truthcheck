@@ -1,4 +1,5 @@
 import pytest
+
 from truthcheck.core import is_truthy
 
 @pytest.mark.parametrize("value,expected", [
