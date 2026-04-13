@@ -39,4 +39,4 @@ warn_unused_configs = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=src/truthcheck --cov-report=term-missing"
+addopts = "--cov=src/truthcheck2 --cov-report=term-missing"

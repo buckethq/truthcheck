@@ -405,7 +405,7 @@ pip install -e ".[dev]"
 # 3. Run quality checks
 python -m ruff check . 
 python -m ruff format .
-python -m mypy src/truthcheck2
+python -m mypy src/truthcheck22
 
 # 4. Run tests with coverage
 python -m pytest
