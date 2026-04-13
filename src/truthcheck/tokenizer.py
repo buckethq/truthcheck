@@ -2,6 +2,7 @@ from typing import Any
 
 import tiktoken
 
+
 def count_tokens(value: Any, model: str = "cl100k_base") -> int:
     """Count tokens in the string representation of any object."""
     try:
@@ -12,11 +13,10 @@ def count_tokens(value: Any, model: str = "cl100k_base") -> int:
     try:
         text = str(value)
     except Exception as e:
-        raise TypeError(
-            f"Cannot convert {type(value).__name__} to string: {e}"
-        ) from e
+        raise TypeError(f"Cannot convert {type(value).__name__} to string: {e}") from e
 
     return len(encoding.encode(text))
+
 
 def print_token_count(value: Any, model: str = "cl100k_base") -> int:
     """Print and return the token count for any object."""
