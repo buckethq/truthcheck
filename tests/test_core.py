@@ -1,6 +1,6 @@
 import pytest
 
-from truthcheck.core import is_truthy
+from truthcheck2.core import is_truthy
 
 
 @pytest.mark.parametrize(

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "truthcheck"
+name = "truthcheck2"
 version = "0.1.0"
 description = "A minimal utility to evaluate truthiness and count tokens."
 readme = "README.md"

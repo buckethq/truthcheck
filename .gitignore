@@ -1,0 +1,81 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# === IDE & Editors ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.pydevproject
+.settings/
+
+# === Testing & Coverage ===
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# === Type Checking & Linting ===
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+*.pyi
+
+# === Build & Distribution ===
+dist/
+build/
+*.tar.gz
+*.whl
+*.zip
+
+# === Documentation ===
+docs/_build/
+site/
+
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+secrets.json
+.pypirc  # ⚠️ Contains PyPI tokens — NEVER commit
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+*.log
+
+# 

@@ -1,6 +1,6 @@
 import pytest
 
-from truthcheck.tokenizer import count_tokens, print_token_count
+from truthcheck2.tokenizer import count_tokens, print_token_count
 
 
 def test_count_tokens_basic() -> None:
